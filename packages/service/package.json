@@ -1,6 +1,6 @@
 {
   "name": "@sfe/service",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "description": "cli create vue/react template",
   "main": "index.js",
   "bin": {
