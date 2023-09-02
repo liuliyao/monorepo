@@ -4,7 +4,7 @@
   "description": "cli create vue/react template",
   "main": "index.js",
   "bin": {
-    "im-cli-service": "./bin/index.js"
+    "sfe-cli-service": "./bin/index.js"
   },
   "directories": {
     "lib": "lib"

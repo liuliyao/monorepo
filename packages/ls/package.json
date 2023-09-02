@@ -4,13 +4,12 @@
   "description": "",
   "main": "index.js",
   "bin": {
-    "im-ls": "./bin/index.js"
+    "sfe-ls": "./bin/index.js"
   },
   "keywords": [
     "ls",
     "list"
   ],
-  "scripts": {},
   "author": "struggle",
   "license": "ISC",
   "gitHead": "df2d2f69503e5735f9b1204aaf0a1629e727afc8"

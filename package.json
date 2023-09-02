@@ -3,6 +3,8 @@
   "version": "1.0.13",
   "private": true,
   "scripts": {
+    "dev": "lerna run dev",
+    "link": "lerna link",
     "publish": "lerna publish"
   },
   "devDependencies": {
