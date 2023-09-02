@@ -10,10 +10,8 @@
     "ls",
     "list"
   ],
-  "scripts": {
-    "build:publish": "npm publish"
-  },
+  "scripts": {},
   "author": "struggle",
   "license": "ISC",
-  "gitHead": "35999fef764126f57f36396996fd0b8b9d7ac4dc"
+  "gitHead": "df2d2f69503e5735f9b1204aaf0a1629e727afc8"
 }

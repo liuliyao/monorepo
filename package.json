@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "publish": "lerna run build:publish"
+    "publish": "lerna publish"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
