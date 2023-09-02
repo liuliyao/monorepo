@@ -1,0 +1,29 @@
+{
+  "name": "@sfe/nodemon",
+  "version": "1.0.9",
+  "description": "tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js",
+    "build:publish": "npm publish"
+  },
+  "keywords": [
+    "node",
+    "nodemon"
+  ],
+  "author": "struggle",
+  "license": "ISC",
+  "devDependencies": {
+    "chalk": "^4.1.2",
+    "chokidar": "^3.5.3",
+    "detect-port": "^1.5.1",
+    "npmlog": "^7.0.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "connect-history-api-fallback": "^2.0.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "fast-glob": "^3.3.1"
+  }
+}

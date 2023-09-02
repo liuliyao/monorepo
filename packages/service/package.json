@@ -1,0 +1,30 @@
+{
+  "name": "@sfe/service",
+  "version": "1.0.9",
+  "description": "cli create vue/react template",
+  "main": "index.js",
+  "bin": {
+    "im-cli-service": "./bin/index.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0",
+    "inquirer": "^8.2.0"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.0"
+  },
+  "scripts": {
+    "build:publish": "npm publish"
+  },
+  "keywords": [
+    "cli",
+    "vue-cli",
+    "create-react-app"
+  ],
+  "author": "struggle",
+  "license": "ISC"
+}
