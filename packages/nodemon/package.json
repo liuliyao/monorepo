@@ -1,6 +1,6 @@
 {
   "name": "@sfe/nodemon",
-  "version": "1.10.0",
+  "version": "1.0.10",
   "description": "tool",
   "main": "index.js",
   "scripts": {
