@@ -1,6 +1,6 @@
 {
   "name": "@sfe/ls",
-  "version": "1.0.13",
+  "version": "1.0.12",
   "description": "",
   "main": "index.js",
   "bin": {
