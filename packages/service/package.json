@@ -1,6 +1,6 @@
 {
   "name": "@sfe/service",
-  "version": "1.0.9",
+  "version": "1.10.0",
   "description": "cli create vue/react template",
   "main": "index.js",
   "bin": {
@@ -26,5 +26,6 @@
     "create-react-app"
   ],
   "author": "struggle",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "35999fef764126f57f36396996fd0b8b9d7ac4dc"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@sfe/ls",
-  "version": "1.0.9",
+  "version": "1.10.0",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -14,5 +14,6 @@
     "build:publish": "npm publish"
   },
   "author": "struggle",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "35999fef764126f57f36396996fd0b8b9d7ac4dc"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@sfe/helper",
-  "version": "1.0.9",
+  "version": "1.10.0",
   "description": "js utils",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -45,5 +45,6 @@
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-router-dom": "5.2.0"
-  }
+  },
+  "gitHead": "35999fef764126f57f36396996fd0b8b9d7ac4dc"
 }
