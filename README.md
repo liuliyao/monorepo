@@ -12,7 +12,7 @@
 - lerna diff: 查看自上次发布以来的所有包或者指定包的git diff变化
 - lerna run [<script>]: 在包含该脚本命令的每个package内部执行npm script脚本命令,也可以指定在某个package下执行
 - lerna exec xxx: 在每个包中执行任意命令，也可以指定在某个package下执行
-- lerna link: 将相互依赖的所有包Symlink链接在一起
+- lerna link: 将相互依赖的所有包Symlink链接在一起(单独软链某个<package>: lerna exec --scope=@sfe/service npm link)
 - lerna version: 相关版本信息
 - lerna publish: 发布需要发布的包
 - lerna bootstrap --hoist: 如果安装包里面有多个基础依赖包，可以使用 —hoist 方式来提升安装性能(提升到根目录)
