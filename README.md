@@ -1,7 +1,7 @@
 # monorepo
 多包管理项目
 
-## 常用命令
+## lerna 常用命令
 - lerna init: 初始化一个lerna项目
 - lerna bootstrap: 安装所有packages的依赖项并且连接本地包的交叉依赖项
 - lerna create: 创建一个lerna管理的package包
@@ -17,3 +17,15 @@
 - lerna publish: 发布需要发布的包
 - lerna bootstrap --hoist: 如果安装包里面有多个基础依赖包，可以使用 —hoist 方式来提升安装性能(提升到根目录)
 - lerna publish --dist-tag dist: 某些发布的情况，开发者需要指定安装包版本，或者指定子目录发布。(指定dist目录为发布目录)
+
+## npm 常用命令
+- npm view/info packagename 查看包对应信息
+
+## package.json
+- files: ['指定上传文件'], 默认上传所有文件, 可以指定发布到npm的文件, 默认: package.json + README.md + ['指定文件/dist']
+- main: dist/index.cjs.js, 默认入口文件, 非es模块化方式导入时的文件
+- module: dist/index.es.js, es模块化导入时的文件
+- types: dist/index.d.ts, 声明文件导入地址
+
+## tsconfig.json
+- tsc --init, 初始化一个tsconfig.json文件

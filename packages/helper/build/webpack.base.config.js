@@ -8,7 +8,7 @@ module.exports = {
 	},
 	output: {
 		path: path.resolve(__dirname, '../dist'),
-		filename: 'index.js',
+		filename: 'index.cjs.js', // xxx.cjs.js(CommonJS); xxx.esm.js(ES Module)
 		clean: true,
 		library: {
 			// type: 'umd' // UMD同时兼容 CommonJS 和 ES Modules，以及全局变量的使用
